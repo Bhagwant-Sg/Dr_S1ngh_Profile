@@ -7,7 +7,7 @@ const verticalStats = [
     label: "Publications",
     desc: "Peer-reviewed research papers",
   },
-  { value: "41", label: "Citations", desc: "Google Scholar citations" },
+  { value: "44", label: "Citations", desc: "Google Scholar citations" },
   { value: "h-5", label: "h-index", desc: "Research impact index" },
   {
     value: "10+",
