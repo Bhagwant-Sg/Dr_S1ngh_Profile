@@ -73,7 +73,7 @@ export function Hero() {
             }}
           >
             <MapPin size={13} />
-            Shivalik University, Dehradun &middot; Punjabi University, Patiala
+            Punjabi University, Patiala &middot;  Shivalik University, Dehradun 
           </div>
 
           <div
