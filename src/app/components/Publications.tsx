@@ -204,7 +204,7 @@ const publications = [
     "Windows PE Malware Detection",
     "External Validation"
   ],
-  category: "Under Revision",
+  category: "Journal",
   link: null,
 },
 ];
