@@ -61,7 +61,7 @@ export function Hero() {
               color: "#1E40AF",
             }}
           >
-            Assistant Professor | Ph.D. Scholar | AI & Cybersecurity Researcher
+            Doctoral Research Scholar | Assistant Professor | AI & Cybersecurity Researcher
           </div>
 
           <div
