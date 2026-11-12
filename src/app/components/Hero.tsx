@@ -86,20 +86,58 @@ export function Hero() {
             }}
           >
             <p>
-              I am a Doctoral Research Scholar in Computer Science and Engineering at Punjabi University, Patiala, and 
-              currently serve as an Assistant Professor in the Department of Computer Science and Engineering at Shivalik University, 
-              Dehradun. My research focuses on AI-driven malware detection, explainable artificial intelligence (XAI), adversarial machine learning, 
-              and trustworthy cybersecurity systems, with particular emphasis on developing robust, interpretable, and reliable machine learning 
-              frameworks for emerging cyber threats. My doctoral research investigates Windows PE malware detection, incorporating hybrid machine learning, 
-              leakage-aware experimental design, explainability, external validation, and robustness-oriented evaluation to improve the reliability and generalizability of AI-based security solutions. 
-            
-            </p>
-            <p>
-              Previously, I served as a Senior Computer Scientist on the MeitY-funded BHASHINI initiative, where I contributed to multilingual natural language processing (NLP) research, including dataset development, transformer-based language models, and computational pipelines for more than ten low-resource Indian languages. 
-              My broader research interests encompass adversarially robust AI, trustworthy machine learning, explainable cybersecurity, and multilingual NLP,
-              with the overarching goal of advancing intelligent, transparent, and dependable AI systems.
-            </p>
-          </div>
+
+    I am a <strong>Doctoral Research Scholar</strong> in Computer
+
+    Science and Engineering at Punjabi University, Patiala, and
+
+    an <strong>Assistant Professor</strong> in the Department of
+
+    Computer Science and Engineering at Shivalik University,
+
+    Dehradun. My research focuses on AI-driven malware detection,
+
+    explainable artificial intelligence (XAI), adversarial machine
+
+    learning, and trustworthy AI for cybersecurity.
+
+  </p>
+
+  <p>
+
+    My doctoral research investigates Windows Portable Executable
+
+    (PE) malware detection through hybrid machine learning,
+
+    leakage-aware experimental design, explainability, external
+
+    validation, and robustness-oriented evaluation. The research
+
+    aims to improve the reliability, interpretability, and
+
+    generalizability of AI-based malware detection systems.
+
+  </p>
+
+  <p>
+
+    Previously, I served as a <strong>Senior Computer Scientist</strong>
+
+    on the MeitY-funded BHASHINI initiative, contributing to
+
+    multilingual natural language processing (NLP), dataset
+
+    development, transformer-based models, and language-processing
+
+    pipelines for more than ten low-resource Indian languages.
+
+    My broader research interests include adversarially robust AI,
+
+    trustworthy machine learning, and multilingual NLP.
+
+  </p>
+
+</div>
 
           <div className="flex flex-wrap gap-2 mb-10">
             {researchTags.map((tag) => (
