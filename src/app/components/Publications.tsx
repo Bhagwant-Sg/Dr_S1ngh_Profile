@@ -194,6 +194,19 @@ const publications = [
     category: "Journal",
     link: null,
   },
+  {
+  title: "MalTrust-Hybrid-GCT: A Leakage-Aware and Explainable Hybrid Framework with External Validation for Windows PE Malware Detection",
+  venue: "Security and Privacy, Manuscript Under Revision",
+  year: 2026,
+  tags: [
+    "Trustworthy AI",
+    "Explainable AI",
+    "Windows PE Malware Detection",
+    "External Validation"
+  ],
+  category: "Under Revision",
+  link: null,
+},
 ];
 
 const categories = ["All", "Journal", "Conference", "Book Chapter"];
