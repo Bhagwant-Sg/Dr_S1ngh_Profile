@@ -3,11 +3,11 @@ import { motion } from "motion/react";
 
 const verticalStats = [
   {
-    value: "17+",
+    value: "20+",
     label: "Publications",
     desc: "Peer-reviewed research papers",
   },
-  { value: "44", label: "Citations", desc: "Google Scholar citations" },
+  { value: "45", label: "Citations", desc: "Google Scholar citations" },
   { value: "h-5", label: "h-index", desc: "Research impact index" },
   {
     value: "10+",
