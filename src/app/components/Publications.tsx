@@ -5,69 +5,75 @@ import { Search, ExternalLink } from "lucide-react";
 const SCHOLAR_URL = "https://scholar.google.com/citations?user=hhhBoXAAAAAJ";
 
 const publications = [
+  // =====================================================
+  // SCIE-INDEXED JOURNAL PUBLICATIONS
+  // =====================================================
+
+  {
+    title: "Cross-Environment AI-Based Malware Detection: A Systematic Review of Android Applications, IoT Ecosystems, and Windows PE Executables",
+    venue: "Expert Systems with Applications, Article 134586, Elsevier",
+    year: 2026,
+    tags: ["Malware Detection", "Systematic Review", "Cross-Environment Security"],
+    category: "Journal",
+    link: null,
+  },
+  {
+    title: "AIPED: An AI-Based Hybrid Framework for Windows Malware Detection Using PE Header Features",
+    venue: "KSII Transactions on Internet and Information Systems, Accepted for Publication, SCIE",
+    year: 2026,
+    tags: ["Windows Malware Detection", "Hybrid Machine Learning", "PE Header Features"],
+    category: "Journal",
+    link: null,
+  },
+
+  // =====================================================
+  // OTHER JOURNAL PUBLICATIONS
+  // =====================================================
+
   {
     title: "Emerging Trends in AI-Powered Malware Detection: A Review of Real-Time and Adversarially Resilient Techniques",
-    venue: "Tuijin Jishu / Journal of Propulsion Technology, 45(4), 1841–1869",
+    venue: "Tuijin Jishu / Journal of Propulsion Technology, Vol. 45, No. 4, pp. 1841–1869, Scopus Indexed",
     year: 2024,
-    tags: ["Malware Detection", "Survey", "Adversarial ML"],
+    tags: ["AI-Powered Malware Detection", "Adversarial Resilience", "Cybersecurity"],
     category: "Journal",
-    link: SCHOLAR_URL,
+    link: null,
   },
   {
     title: "Psychology in Cybersecurity: Unveiling the Human Dimensions of Digital Resilience",
-    venue: "International Journal of Advanced Networking and Applications, 16(1), 6281–6290",
+    venue: "International Journal of Advanced Networking and Applications, Vol. 16, No. 1, pp. 6281–6290",
     year: 2024,
-    tags: ["Cyber Psychology", "Human Factors"],
+    tags: ["Cybersecurity Psychology", "Digital Resilience", "Human Factors"],
     category: "Journal",
-    link: "https://doi.org/10.35444/IJANA.2024.16107",
+    link: null,
   },
   {
     title: "Psychological Defenses in Cyberspace: Unveiling the Significance of Cognitive Shields in Cybersecurity",
-    venue: "International Journal of Advanced Networking and Applications, 16(1), 6291–6295",
+    venue: "International Journal of Advanced Networking and Applications, Vol. 16, No. 1, pp. 6291–6295",
     year: 2024,
-    tags: ["Cyber Psychology", "Cognitive Security"],
+    tags: ["Cyber Psychology", "Cognitive Security", "Cyber Defense"],
     category: "Journal",
-    link: "https://doi.org/10.35444/IJANA.2024.16108",
+    link: null,
   },
   {
     title: "A Disruptive Ransomware: Its Impersonation Process, Identification and Avoidance",
-    venue: "International Journal of Multidisciplinary Research and Growth Evaluation, 6, 238–245",
+    venue: "International Journal of Multidisciplinary Research and Growth Evaluation, Vol. 6, pp. 238–245",
     year: 2025,
-    tags: ["Ransomware", "Malware"],
+    tags: ["Ransomware", "Malware Identification", "Cyber Threat Prevention"],
     category: "Journal",
-    link: SCHOLAR_URL,
+    link: null,
   },
-  {
-    title: "Methods for Restricting Unwanted Access on the Networks Using Firewall",
-    venue: "International Journal of Advanced Research in Innovative Discoveries in Engineering and Applications, 7(2), 40–47",
-    year: 2022,
-    tags: ["Firewall", "Network Security"],
-    category: "Journal",
-    link: SCHOLAR_URL,
-  },
-  {
-    title: "Network Security Attacks and Techniques to Secure the Networks",
-    venue: "International Journal of Advanced Research in Innovative Discoveries in Engineering and Applications, 7(2), 40–47",
-    year: 2022,
-    tags: ["Network Security", "Attacks"],
-    category: "Journal",
-    link: SCHOLAR_URL,
-  },
-  {
-    title: "Cybersecurity Threats and Mitigation Strategies in Agriculture 4.0 and 5.0: Challenges and Solutions in the Digital Transformation of Agriculture",
-    venue: "JPAS, 24, 15–32",
-    year: 2024,
-    tags: ["Cybersecurity", "Smart Agriculture"],
-    category: "Journal",
-    link: SCHOLAR_URL,
-  },
+
+  // =====================================================
+  // IEEE CONFERENCE PUBLICATIONS
+  // =====================================================
+
   {
     title: "Next Generation Firewall and Self Authentication for Network Security",
-    venue: "Proceedings of the 7th International Conference on Image Information Processing (ICIIP), Solan, India, pp. 707–713, IEEE",
+    venue: "Proceedings of the 7th International Conference on Image Information Processing (ICIIP), pp. 707–713, IEEE",
     year: 2023,
-    tags: ["Firewall", "Network Security", "Authentication"],
+    tags: ["Network Security", "Next-Generation Firewall", "Authentication"],
     category: "Conference",
-    link: "https://doi.org/10.1109/ICIIP61524.2023.10537758",
+    link: null,
   },
   {
     title: "Artificial Intelligence-Based Dataset Optimization to Strengthen Malware Classification Frameworks",
@@ -85,61 +91,108 @@ const publications = [
     category: "Conference",
     link: "https://doi.org/10.1109/AISummit66170.2025.11411213",
   },
+
+  // =====================================================
+  // ACCEPTED CONFERENCE PAPERS
+  // =====================================================
+
   {
     title: "Optimizing Malware Detection Through Systematic Data Preprocessing Techniques for Robust Machine Learning Models",
-    venue: "Springer Nature conference proceedings (accepted)",
+    venue: "Accepted Conference Paper, Proceedings Forthcoming",
     year: 2025,
-    tags: ["Preprocessing", "Machine Learning"],
+    tags: ["Malware Detection", "Data Preprocessing", "Robust Machine Learning"],
     category: "Conference",
-    link: SCHOLAR_URL,
+    link: null,
   },
   {
-    title: "AI-Based Malware Detection Frameworks: A Comprehensive Review of Adaptive and Explainable Techniques",
-    venue: "Scopus-indexed conference proceedings (accepted)",
+    title: "AI-Based Malware Detection Frameworks: A Comprehensive Review of Adaptive and Explainable Techniques Analysis",
+    venue: "Accepted Conference Paper, Proceedings Forthcoming",
     year: 2025,
-    tags: ["Review", "Explainable AI"],
+    tags: ["Malware Detection", "Explainable AI", "Adaptive Machine Learning"],
     category: "Conference",
-    link: SCHOLAR_URL,
+    link: null,
   },
   {
     title: "Two-Phase Framework for Lemma Identification in Low-Resource Languages",
-    venue: "Conference proceedings, National Institute of Technology Jalandhar (accepted)",
+    venue: "Accepted Conference Paper, Proceedings Forthcoming",
     year: 2026,
-    tags: ["Multilingual NLP", "Low-resource", "Lemmatization"],
+    tags: ["Natural Language Processing", "Lemma Identification", "Low-Resource Languages"],
     category: "Conference",
-    link: SCHOLAR_URL,
+    link: null,
   },
   {
-    title: "Artificial Intelligence and Machine Learning in Factories of the Future",
-    venue: "Factories of the Future: Technological Advancements in the Manufacturing Industry, Scrivener Publishing, Wiley",
+    title: "Do Class Activation Maps See the Crack? A Pixel-Level Ground-Truth Evaluation of Explanation Methods for CNN-Based Crack Detection",
+    venue: "Accepted Conference Paper, Springer Proceedings Forthcoming",
+    year: 2026,
+    tags: ["Explainable AI", "Class Activation Maps", "Computer Vision"],
+    category: "Conference",
+    link: null,
+  },
+
+  // =====================================================
+  // BOOK CHAPTERS
+  // =====================================================
+
+  {
+    title: "Artificial Intelligence and Machine Learning in Factories of the Future: Technological Advancements in the Manufacturing Industry",
+    venue: "Factories of the Future: Technological Advancements in the Manufacturing Industry, Scrivener Publishing (Wiley)",
     year: 2023,
-    tags: ["AI", "Manufacturing"],
+    tags: ["Artificial Intelligence", "Machine Learning", "Industry 4.0"],
     category: "Book Chapter",
-    link: SCHOLAR_URL,
+    link: null,
   },
   {
     title: "Role of Robots in the Smart Agriculture System",
-    venue: "Role of Artificial Intelligence and Automation in Modern Age Agriculture, Vol. 1, Gurmehar Publication",
+    venue: "Role of Artificial Intelligence and Automation in Modern Age Agriculture, Vol. 1, Gurmehar Publication, ISBN: 978-93-93579-38-6",
     year: 2022,
-    tags: ["Robotics", "Smart Agriculture"],
+    tags: ["Agricultural Robotics", "Smart Agriculture", "Automation"],
     category: "Book Chapter",
-    link: SCHOLAR_URL,
+    link: null,
   },
   {
     title: "Machine Learning in Modern Agriculture",
-    venue: "Role of Artificial Intelligence and Automation in Modern Age Agriculture, Vol. 1, Gurmehar Publication",
+    venue: "Role of Artificial Intelligence and Automation in Modern Age Agriculture, Vol. 1, Gurmehar Publication, ISBN: 978-93-93579-38-6",
     year: 2022,
-    tags: ["Machine Learning", "Agriculture"],
+    tags: ["Machine Learning", "Precision Agriculture", "Agricultural AI"],
     category: "Book Chapter",
-    link: SCHOLAR_URL,
+    link: null,
   },
   {
     title: "Drones in Agriculture: A Comprehensive Review",
-    venue: "Role of Artificial Intelligence and Automation in Modern Age Agriculture, Vol. 2, Gurmehar Publication",
+    venue: "Role of Artificial Intelligence and Automation in Modern Age Agriculture, Vol. 2, Gurmehar Publication, ISBN: 978-93-93579-75-1",
     year: 2023,
-    tags: ["Drones", "Agriculture", "Review"],
+    tags: ["Agricultural Drones", "Precision Agriculture", "Automation"],
     category: "Book Chapter",
-    link: SCHOLAR_URL,
+    link: null,
+  },
+
+  // =====================================================
+  // ADDITIONAL PUBLICATIONS
+  // =====================================================
+
+  {
+    title: "Methods for Restricting Unwanted Access on the Networks Using Firewall",
+    venue: "International Journal of Advanced Research in Innovative Discoveries in Engineering and Applications (IJARIDEA), Vol. 7, No. 2, pp. 40–47",
+    year: 2022,
+    tags: ["Network Security", "Firewall", "Access Control"],
+    category: "Journal",
+    link: null,
+  },
+  {
+    title: "Network Security Attacks & Techniques to Secure the Networks",
+    venue: "International Journal of Advanced Research in Innovative Discoveries in Engineering and Applications (IJARIDEA), Vol. 7, No. 2, pp. 40–47",
+    year: 2022,
+    tags: ["Network Security", "Cyber Attacks", "Network Defense"],
+    category: "Journal",
+    link: null,
+  },
+  {
+    title: "Cybersecurity Threats and Mitigation Strategies in Agriculture 4.0 and 5.0: Challenges and Solutions in the Digital Transformation of Agriculture",
+    venue: "JPAS, Vol. 24, pp. 15–32",
+    year: 2024,
+    tags: ["Agricultural Cybersecurity", "Agriculture 4.0", "Threat Mitigation"],
+    category: "Journal",
+    link: null,
   },
 ];
 
