@@ -87,54 +87,23 @@ export function Hero() {
           >
             <p>
 
-    I am a <strong>Doctoral Research Scholar</strong> in Computer
-
-    Science and Engineering at Punjabi University, Patiala, and
-
-    an <strong>Assistant Professor</strong> in the Department of
-
-    Computer Science and Engineering at Shivalik University,
-
-    Dehradun. My research focuses on AI-driven malware detection,
-
-    explainable artificial intelligence (XAI), adversarial machine
-
+    I am a <strong>Doctoral Research Scholar</strong> in Computer Science and Engineering at Punjabi University, Patiala, and 
+    an <strong>Assistant Professor</strong> in the Department of Computer Science and Engineering at Shivalik University, 
+    Dehradun. My research focuses on AI-driven malware detection, explainable artificial intelligence (XAI), adversarial machine 
     learning, and trustworthy AI for cybersecurity.
-
   </p>
 
   <p>
-
-    My doctoral research investigates Windows Portable Executable
-
-    (PE) malware detection through hybrid machine learning,
-
-    leakage-aware experimental design, explainability, external
-
-    validation, and robustness-oriented evaluation. The research
-
-    aims to improve the reliability, interpretability, and
-
-    generalizability of AI-based malware detection systems.
-
+    My doctoral research investigates Windows Portable Executable (PE) malware detection 
+    through hybrid machine learning, leakage-aware experimental design, explainability, external validation, 
+    and robustness-oriented evaluation. The research aims to improve the reliability, interpretability, and generalizability
+    of AI-based malware detection systems.
   </p>
 
   <p>
-
-    Previously, I served as a <strong>Senior Computer Scientist</strong>
-
-    on the MeitY-funded BHASHINI initiative, contributing to
-
-    multilingual natural language processing (NLP), dataset
-
-    development, transformer-based models, and language-processing
-
-    pipelines for more than ten low-resource Indian languages.
-
-    My broader research interests include adversarially robust AI,
-
+    Previously, I served as a <strong>Senior Computer Scientist</strong> on the MeitY-funded BHASHINI initiative, contributing to multilingual natural language processing (NLP), dataset
+    development, transformer-based models, and language-processing pipelines for more than ten low-resource Indian languages. My broader research interests include adversarially robust AI, 
     trustworthy machine learning, and multilingual NLP.
-
   </p>
 
 </div>
